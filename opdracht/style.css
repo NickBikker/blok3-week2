@@ -1,0 +1,98 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: deepskyblue;
+}
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.nav {
+	background-color: gray;
+	margin-bottom: 10px;
+}
+
+.nav ul {
+	padding: 20px;
+	padding-bottom: 40px;
+}
+
+.nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.error {
+	color: red;
+}
+
+.footer {
+	text-align: center;
+	background-color: #474444;
+	color: white;
+	padding: 5px;
+}
+
+/*
+	Paniek
+*/
+
+.content {
+	margin-left: 10px;
+	margin-bottom: 20px;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.title {
+	margin-bottom: 20px;
+}
+
+.q {
+	margin-bottom: 5px;
+}
+
+.a {
+	margin-bottom: 22px;
+}
+
+.vragen {
+	grid-column: 1;
+}
+
+.antwoord {
+	grid-column: 2;
+}
+
+.story {
+	grid-column: 1 / 2;
+	grid-row: 2;
+}
+
+.two {
+	display: none;
+}
+
+.ja {
+	display: block;
+}
+
+.nee {
+	display: none;
+}
